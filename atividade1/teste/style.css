@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #fffbe6;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    color: #f5c518;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-style: italic;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.nav li {
+    margin: 0 1rem;
+}
+
+.nav a {
+    color: #f5c518;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+.hero {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.hero img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about, .ficha, .inscricao {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-left: 5px solid #f5c518;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .ficha h2, .inscricao h2 {
+    margin-bottom: 1rem;
+    color: #b32d00;
+}
+
+.ficha ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.ficha li {
+    margin-bottom: 0.5rem;
+}
+
+.gallery {
+    padding: 2rem 1rem;
+    background-color: #fef3d7;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #b32d00;
+    margin-bottom: 1rem;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.gallery-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+}
+
+.inscricao form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inscricao label {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.inscricao input,
+.inscricao textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.inscricao button {
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #f5c518;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.inscricao button:hover {
+    background-color: #e4b400;
+}
+
+footer {
+    background-color: #222;
+    color: #f5c518;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

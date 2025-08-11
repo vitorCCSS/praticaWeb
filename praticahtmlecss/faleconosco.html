@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pratica 1 HTML e CSS</title>
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="imgs/logo.png" alt="logo da pagina" title = "logo da página">
+            <h1> Fale Conosco </h1>
+        </header>
+         <!--A tag "nav" cria uma área para navegação como menus e outros -->
+         <nav>
+            <!-- A tag "a" cria um hiperlink para outro arquivo(local), outro site(externo)
+             ou algum local da propria página(interno). A tag "div" define uma divisão ou seção em uma pagina HTML,
+             o elemento "div" é frequentemente utilizado como conteiner para outros elementos-->
+            <a href="index.html"> <div class = "opcao"> Inicio </div> </a>
+            <a href="produtos.html"> <div class = "opcao"> Geladeiras e Freezers </div> </a>
+            <a href="faleconosco.html"> <div class = "opcao"> Fale Conosco </div> </a>
+
+         </nav>
+         <!-- A tag "section" define uma seção dos conteudos de uma página -->
+         <section>
+            <h2> Fale Conosco </h2>
+            <p> Ficou com alguma duvida? Preencha este formulario e entraremos em contato! </p>
+            <form name="frmfaleconosco" method="post" action="#">
+
+                <fieldset>
+                    <legend> Dados Pessoais: </legend>
+                    <label for = "nome"> Nome:</label>
+                    <input type ="text" name="txtnome" id="nome">
+                    <label for = "fone"> Telefone: </label>
+                    <input type = "text" name = "txtfone" id="fone">
+                    <label for = "email"> E-mail </label>
+                    <input type = "email" name = "txtemail" id="email">
+                </fieldset>
+
+                <fieldset>
+
+                    <legend> Motivo do Contato: </legend>
+                    <label for = "motivo"> Motivo: </label>
+                    <select name = "selmotivo" id = "motivo"> 
+                        <option value = ""> Escolha </option>
+                        <option value = "RE"> Reclamação </option>
+                        <option value = "SU"> Sugestão </option>
+                        <option value = "PR"> Informação sobre produto </option>
+                    </select>
+                    <label for = "comentario"> Comentario </label>
+                    <textarea name = "txacomentario" id = "comentario"></textarea>
+                    <button type = "reset"> Limpar </button>
+                    <button type = "submit"> Enviar </button> 
+
+                </fieldset>
+
+
+            </form>
+
+         
+
+
+         </section>
+         <!-- A tag "footer" define a criação de um rodapé-->
+         <footer> copyright &copy; ADS2025 </footer>
+         
+    </body>
+   
+
+</html>

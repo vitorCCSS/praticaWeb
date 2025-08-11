@@ -1,0 +1,46 @@
+/*config geral*/
+
+section
+{
+    margin-top:0px auto;
+}
+
+/*Config pagina*/
+
+.cadnumint
+{
+    width:300px ;
+    margin:150px auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cadnumint input
+{
+    margin: 10px auto;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.cadnumint button
+{
+    width:30%;
+    margin:0 10%;
+    background-color: #eb23e1;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+label
+{
+    float: left;
+
+}
+
+h2
+{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+
+    background-color: #B8860B;
+}
+h1{
+    color:whitesmoke;
+    padding:20px;
+}
+p{
+    color:whitesmoke;
+    padding:20px;
+    font-size:25px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Fã Clube</title>
+    <link rel="stylesheet" type="text/css" href="css/site.css"
+</head>
+
+<body>
+     <header>
+            <img src="imgs/logoKungfu.jpg" alt="Logo da página" title="Logo da página">
+            <h1>Inscrição</h1>
+     </header>
+
+     <nav>
+         <a href="Inicio.html"><div class="opcao">Início</div></a>
+         <a href="ficha.html"><div class="opcao">Ficha Tecnica</div></a>
+         <a href="inscricao.html"><div class="opcao">Inscrição</div></a>
+     </nav> 
+    
+     <section>
+        <h2>Inscreva-se</h2>
+    <p>Gostou do que viu? Tem interesse em fazer parte do Clube? Preencha este formulário e entraremos em contato!</p>
+
+    <form name="frminscricao" method="post" action="#">
+        <fieldset class="inscricao">
+            <legend>Dados pessoais:</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="txtnome" id="nome">
+            <label for="fone">Telefone:</label>
+            <input type="text" name="txtfone" id="fone">
+            <label for="email">E-mail</label>
+            <input type="email" name="txtemail" id="email">
+            <label>Sexo:</label>
+            <div class="radio">
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="feminino" name="sexo" value="feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+        </fieldset>
+
+        <fieldset class="inscricao">
+            <label for="comentario">Por que devemos te aceitar no clube?</label>
+            <textarea name="txacomentario" id="comentario"></textarea>
+            <div class="checkbox">
+                <input type="checkbox" id="faclube" name="faclube" value="sim">
+                <label for="faclube">Deseja participar do fã clube?</label>
+            </div>
+            <button type="reset">Limpar</button><button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+    <header>
+        <div class="kungRodape">
+            <img src="imgs/kungRodape.png" alt="Imagem Inscrição" title="Imagem Inscrição" class="imagem-final">
+        </div>
+    </header>
+     </section>
+    
+     <footer>Copyright &copy; ADS2025</footer>
+</body>
+</html>

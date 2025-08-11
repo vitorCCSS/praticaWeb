@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" type="text/css" href="css/config.css">
+    <script src="js/validaProc.js" defer></script>
+</head>
+<body>
+    <section>
+        <h2>Gerador de Tabuada</h2>
+        <font face="arial">
+            <form name="frmunint" action="#" method="get" onsubmit="return validaProc()">
+                <fieldset class="cadinteiro">
+                    <legend>Entrada de dados</legend>
+                    <label for="numero">Informe um número inteiro:</label><br><br>
+                    <input type="number" name="numero" id="numero" required>
+                    <br><br>
+                    <button type="submit">Gerar</button>
+                </fieldset>
+            </form>
+            <div id="resultado" class="cadinteiro"></div>
+        </font>
+    </section>
+</body>
+</html>
