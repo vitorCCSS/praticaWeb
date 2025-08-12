@@ -1,0 +1,1 @@
+Ler 3 números inteiros positivos exibir a soma dos números que são divisíveis por 5
