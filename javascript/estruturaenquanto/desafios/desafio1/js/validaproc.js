@@ -6,10 +6,17 @@ function validaProc()
     
     while(contador<=2) //while = enquanto / do while = faça enquanto
     {  
-        numero = parseInt(prompt("Digite um numero:"));
-        console.log("O numero informado é:"+ numero );
-        soma+= numero;
-        contador++
+        numero = parseInt(prompt("Digite um numero inteiro positivo: "));
+        if(numero <=0)
+        {
+            console.log("O numero digitado não pode ser 0 ou negativo, tente novamente ")
+        }
+        else
+        {
+            console.log("O numero informado é:"+ numero );
+            soma+= numero;
+            contador++
+        }
     }
 
     do
