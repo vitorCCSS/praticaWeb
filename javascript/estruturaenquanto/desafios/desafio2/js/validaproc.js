@@ -7,8 +7,8 @@ function validaProc()
     {
         peso = parseInt(prompt("Qual seu peso?"));
         altura = parseInt(prompt("Qual sua altura?"));
-        console.log("peso: "+ peso + " kg" );
-        console.log("altura: "+altura + " cm" );
+        console.log("Peso: "+ peso + " kg" );
+        console.log("Altura: "+altura + " cm" );
         calculo = peso / (altura * altura);
 
         console.log("Seu IMC é: "+ calculo);
