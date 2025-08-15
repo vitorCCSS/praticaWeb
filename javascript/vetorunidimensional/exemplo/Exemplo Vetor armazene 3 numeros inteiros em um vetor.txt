@@ -1,0 +1,1 @@
+Exemplo Vetor armazene 3 numeros inteiros em um vetor
