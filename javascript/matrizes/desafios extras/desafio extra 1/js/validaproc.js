@@ -1,9 +1,8 @@
 function validaProc()
 { 
     let matriz=[];
-    let linhas=5;
-    let colunas=5;
-    let matrizDobro=[];
+    let linhas=4;
+    let colunas=4;
 
     //Alimentar a matriz
     for(i = 0; i< linhas; i++)
@@ -15,18 +14,8 @@ function validaProc()
         }
     }
 
-    //Multiplicando a matriz original por 2
+    document.write("<h3> Matriz <h3>");
     for(i = 0; i< linhas; i++)
-    {
-        matrizDobro[i]=[]
-        for(c = 0; c < colunas; c++)
-        {
-            matrizDobro[i][c] = matriz[i][c] * 2
-        }
-    }
-    
-    //Matriz original
-    for(i = 0; i < linhas; i++)
     {
         for(c = 0; c < colunas; c++)
         {
@@ -34,17 +23,24 @@ function validaProc()
         }
         document.write("<br>");
     }
-
     
-    //Matriz dobrada
-    for(i = 0; i < linhas; i++)
+    document.write("<br>");
+    document.write("<br>");
+    
+    document.write("<h3> Diagonal Principal <h3>");
+    for(i = 0; i< linhas; i++)
     {
-        for(c = 0; c < colunas; c++)
-        {
-            document.write(matrizDobro[i][c]+"&nbsp&nbsp");
-        }
-        document.write("<br>");
+        document.write(matriz[i][i] +" ");  
     }
 
+    document.write("<br>");
+    document.write("<br>");
+
+    document.write("<h3> Diagonal Secundaria <h3>");
+    for(i = 0; i< linhas; i++)
+    {
+        document.write(matriz[i][3-i] +" ");
+    }
+    
     return false;
 }
